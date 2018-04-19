@@ -1,0 +1,12 @@
+<!--INÍCIO DO CLOTHES -->
+<div class="col-md-9 col-xs-12">
+
+    <mt-clothes-item
+      *ngFor="let item of clothes | async"
+      [clothesItem]="item" (add)="shoppingCart.addItem($event)"> </mt-clothes-item>
+
+</div>
+<div class="col-md-3 col-xs-12">
+  <mt-shopping-cart #shoppingCart></mt-shopping-cart>
+</div>
+<!-- FIM DO CLOTHES -->

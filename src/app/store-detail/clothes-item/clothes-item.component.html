@@ -1,0 +1,12 @@
+<div class="clothes-item-info-box">
+    <span class="clothes-item-info-box-icon">
+      <img [src]="clothesItem.imagePath"></span>
+
+    <div class="clothes-item-info-box-content">
+      <span class="clothes-item-info-box-detail">{{clothesItem.description}}</span>
+      <span class="clothes-item-info-box-detail">{{clothesItem.brand}}</span>
+      <span class="clothes-item-info-box-price"> {{clothesItem.price | currency: 'BRL': true}}</span>
+      <a (click) = "emitAddEvent()" class=""><i class="fa fa-plus-circle"></i> Adicionar</a>
+    </div>
+    <!-- /.info-box-content -->
+  </div>

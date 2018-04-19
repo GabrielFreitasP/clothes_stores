@@ -1,0 +1,75 @@
+{
+  "stores": [
+    {
+      "id": "long",
+      "name": "Long",
+      "category": "Trajes Esportivo",
+      "distance": 3,
+      "rating": 4.9,
+      "imagePath": "assets/img/stores/long.jpg",
+      "about": "A Long tem 40 anos de mercado. Vendemos as melhores roupas esportivas do mercado. Compre e confira.",
+      "hours": "Funciona de segunda à sexta, de 8h às 18h"
+    },
+    {
+      "id": "sr-house",
+      "name": "Sr. House",
+      "category": "Trajes Social Masculino",
+      "distance": 7,
+      "rating": 4.1,
+      "imagePath": "assets/img/stores/sr-house.jpg",
+      "about": "Os melhores ternos e trajes sociais masculino.",
+      "hours": "Funciona todos os dias, das 10h às 18h"
+    }
+  ],
+  "clothes": [
+    {
+      "id": "camisa-palmeiras",
+      "imagePath": "assets/img/clothes/camisa-palmeiras.jpg",
+      "brand": "Adidas",
+      "description": "Camisa Esportiva Palmeiras",
+      "price": 189.99,
+      "storeId": "long"
+    },
+    {
+      "id": "camisa-sao-paulo",
+      "imagePath": "assets/img/clothes/camisa-sao-paulo.jpg",
+      "brand": "Adidas",
+      "description": "Camisa Esportiva São Paulo",
+      "price": 99.98,
+      "storeId": "long"
+    },
+    {
+      "id": "terno-super",
+      "imagePath": "assets/img/clothes/terno-super.jpg",
+      "brand": "Colombo",
+      "description": "Terno Preto Super",
+      "price": 519.99,
+      "storeId": "sr-house"
+    },
+    {
+      "id": "terno-slim",
+      "imagePath": "assets/img/clothes/terno-slim.png",
+      "brand": "Giorgio Armani",
+      "description": "Terno Slim Cinza",
+      "price": 614.99,
+      "storeId": "sr-house"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Júlia",
+      "date": "2017-01-23T18:25:43",
+      "rating": 4.5,
+      "comments": "Tudo muito bom, entrega no tempo certo e tem ótimos trajes esportivos.",
+      "storeId": "long"
+    },
+    {
+      "name": "Steave",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4.3,
+      "comments": "Comprei o terno slim e é de ótima qualidade e muito confotavél. Recomendo!",
+      "storeId": "sr-house"
+    }
+  ],
+  "orders": []
+}
